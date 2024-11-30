@@ -1,0 +1,76 @@
+.main 
+    { width: 200px;
+     height: 120px;
+     background-color: rgba(59, 197, 71, 0.63);
+     font-size: 40px;
+     color: rgb(206, 23, 23);
+    /*
+    boder:2px solid| dashed |dotted color |color code;
+    */
+    border: 2px solid black;
+    }
+    .main01 
+    { width: 200px;
+     height: 120px;
+     background-color: rgba(34, 83, 38, 0.63);
+     font-size: 30px;
+     color: rgb(241, 24, 24);
+    /*
+    boder:2px solid| dashed |dotted color |color code;
+    */
+    border: 2px dashed black;
+    }
+
+
+.main02
+{ width: 200px;
+ height: 120px;
+ background-color: rgba(57, 30, 180, 0.63);
+ font-size: 35px;
+ color: rgb(24, 136, 89);
+/*
+boder:2px solid| dashed |dotted color |color code;
+*/
+border: 2px dotted black;
+}
+
+
+.main03 
+{ width: 200px;
+ height: 120px;
+ background-color: rgba(202, 54, 190, 0.63);
+ font-size: 30px;
+ color: rgb(161, 184, 32);
+/*
+boder:2px solid| dashed |dotted color |color code;
+*/
+border: 2px  black;
+margin: 15px
+ 5px 15px 5px;
+}
+   
+
+
+.main04 
+{ width: 200px;
+ height: 60px;
+ background-color: rgba(182, 161, 67, 0.63);
+ font-size: 30px;
+ color: rgb(61, 68, 19);
+ 
+/*
+boder:2px solid| dashed |dotted color |color code;
+*/
+margin:10px;
+
+}
+.main04-row1
+{
+    width: 200px;
+ height: 60px;
+ background-color: #f8f8faa1;
+ font-size: 30px;
+ color: #441344;
+ border: double blueviolet;
+ margin: 10px solid yellow;
+}

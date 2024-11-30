@@ -1,0 +1,15 @@
+.main 
+    { width: 250px;
+     height: 100px;
+     background-color: rgba(16, 165, 28, 0.63);
+     text-shadow: 10px;
+     font-size: 40px;
+     color: rgb(22, 214, 189);}
+
+     .main:hover
+    { width: 350px;
+     height: 180px;
+     background-color: rgba(221, 36, 175, 0.63);
+     text-shadow: 10px;
+     font-size: 40px;
+     color: rgb(29, 31, 30);}
