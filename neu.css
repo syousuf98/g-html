@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@500&family=Ubuntu:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+.container{
+    position: relative;
+    width: 360px;
+    padding: 30px;
+    background-color: #e3e6ec;
+    box-shadow: 10px 10px 15px rgb(209, 217, 230),
+    -10px -10px 15px rgb(255, 255, 255);
+    border-radius: 20px;
+}
+input{
+    position: relative;
+    appearance: none;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #e3e6ec;
+    box-shadow: 10px 10px 15px rgb(209, 217, 230),
+    -10px -10px 15px rgb(255, 255, 255),
+    inset 0 0 15px rgb(209, 217, 230),
+    inset 0 0 15px   rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+input:checked{
+    box-shadow: 
+    0 0 15px rgb(209, 217,230),
+    0 0 15px rgb(255, 255, 255),
+    inset 10px 10px 15px rgb(209, 217, 230),
+    inset -10px -10px 15px rgb(255, 255, 255);
+}
+input::before{
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(0, 0, 0,0.1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s;
+}
+input:checked::before{
+    color: #12e2a3;
+}
+input.home::before{
+    content: "\f015";
+}
+input.bell::before{
+    content: "\f0f3";
+}
+input.lightbulb::before{
+    content: "\f0eb";
+}
+input.thermometer::before{
+    content: "\f2c9";
+}
+input.laptop::before{
+    content: "\f109";
+}
+input.blender::before{
+    content: "\f517";
+}
